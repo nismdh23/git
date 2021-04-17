@@ -1,0 +1,93 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+html,body{height:100%;overflow: hidden;}
+body>div{width:100%;height:100%;margin:0 auto;}
+/* 导航栏 */
+.nav{width: 1056px;height: 86px;margin: 0 auto;}
+.nav>li{width: 102px;height: 36px;float: left;margin: 20px 1px 20px 0;text-align: center;}
+.nav>li>a{display: block;width: 102px;height: 20px;color: #A23E4F;margin:8px 0; border-right: 1px solid #C0C1C2;}
+.nav>li:nth-child(1){width: 221px;height: 72px;margin: 5px 1px;border-right: none;}
+.nav>li:nth-child(1)>a{display: block;width: 221px;height: 72px;border-right: none;}
+.nav>li:nth-child(1)>a>img{width: 100%;height: 100%;}
+.nav>li:nth-child(9)>a{border-right: none;}
+.nav>li>a:hover{color: #FFBDC2;}
+.view{width: 100%;height: 776px;margin: 70px auto;background: url(../img/bg_01.jpg) no-repeat center;overflow: hidden;position: relative;}
+/* 第二部分 */
+div.two{overflow: hidden;}
+.two>div{width: 100%;height:50%;margin: 0 auto;text-align: center;position: relative;}
+.two-f{background: url(../img/bg_03.jpg) no-repeat center top/100% 600px;}
+.two-l{background: url(../img/bg_04.jpg) no-repeat center top/100% 600px;}
+.two-f>img{width: 724px;padding: 2px;opacity: 1;position: absolute;top: 70px;bottom: 0;}
+.two-f>img:first-child{left: 0;}
+.two-f>img:last-child{right: 0;}
+/* 游戏特色 */
+.two-l>div{display: none;}
+.two-l>div>img{width:1200px;height: 420px;position: absolute;left: 0;top: 60px;right: 0;margin: auto;}
+.two-l>ul{width: 200px;height: 20px;position: absolute;bottom: 30px;left: 0;right: 0;margin: auto;}
+.two-l>ul>li{width:19px;height: 19px;border-radius: 50%;background: white;border: 1px solid #FFBDC2;float: left;margin: 0 9px;}
+/* 第三部分 */
+div.three{background:lightsalmon;}
+div.three>div{width: 100%;height:50%;margin: 0 auto;text-align: center;position: relative;overflow: hidden;}
+.three-f{background: url(../img/bg_05.jpg) no-repeat center top/100% 600px;}
+.three-l{background: url(../img/bg_06.jpg) no-repeat center top/100% 600px;}
+.three-f>ul{width: 1200px;height: 0;margin: 70px auto;opacity: 0;}
+.three-f>ul>li{width: 33%;height: 100%;background: white;float: left;padding: 0 2px;}
+.three-f>ul>li>p{width: 95%;margin: 16px auto;text-align: left;color: #5F3E4F;height: 14px;font-size: 14px;}
+.three-f>ul>li>p>a{color: #5F3E4F;}
+.three-f>ul>li>p>a:hover{text-decoration: underline;color: red;}
+.three-f>ul>li>p:nth-child(1){height: 50px;border-bottom: 1px solid #FFBDC2;font-size: 20px;line-height: 50px;}
+.three-f>ul>li>p:nth-child(1)>a{float: right;margin: 5px 0;}
+.three-f>ul>li:nth-child(1)>img{width: 370px;}
+.three-f>ul>li:nth-child(2)>img{height: 260px;}
+.three-f>ul>li:nth-child(2)>a{display: block;width: 95%;height: 30px;margin: 10px auto;line-height: 30px;text-align: center;color: #5F3E4F;}
+.three-f>ul>li:nth-child(2)>a:hover{color: red;text-decoration: underline;}
+ul.skill{width: 95%;height: 300px;margin: 0 auto;display: flex;flex-flow: row wrap;justify-content: space-between;}
+ul.skill>li{width: 88px;height: 97px;background: #FFBDC2;}
+ul.skill>li>img{width: 73px;height: 73px;}
+ul.skill>li>p{font-size: 12px;color: #5F3E4F;margin-top: -2px;}
+/* 同人站 */
+.three-l>ul{width: 1200px;height:0;background: palegoldenrod;margin: 70px auto;opacity: 0;}
+.three-l>ul>li{width: 33%;height: 100%;background: white;float: left;padding: 0 2px;}
+.three-l>ul>li>p{width: 95%;margin: 16px auto;color: #5F3E4F;height: 14px;font-size: 14px;text-align: left;}
+.three-l>ul>li>p>a{color: #5F3E4F;}
+.three-l>ul>li>p>a:hover{text-decoration: underline;color: red;}
+.three-l>ul>li>p>span{float: right;margin-right: 10px;}
+.three-l>ul>li>p:nth-child(1){height: 50px;border-bottom: 1px solid #FFBDC2;font-size: 20px;line-height: 50px;text-align: left}
+.three-l>ul>li>p:nth-child(1)>a{float: right;margin: 5px 0;}
+.three-l>ul>li:nth-child(1)>div{width: 95%;height: 290px;margin: 0 auto;}
+div.shi{width: 175px;height: 145px;margin: 4px 5px;float: left;position: relative;}
+div.shi>img{width: 175px;height: 145px;}
+div.shi>p{width: 100%;height: 40px;background: rgba(0,0,0,.5);position: absolute;bottom: 0;color: white;font-size: 16px;
+text-align:left;line-height: 40px;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+div.shi>a{display: block;width: 175px;height: 145px;background: rgba(0,0,0,.5);position: absolute;top: 0;color: #FFBDC2;display: none;}
+div.shi>a>span{display: block;width: 20px;height: 20px;background: white;border: 1px solid #FFBDC2;border-radius: 50%;margin: 60px 70px;line-height: 20px;}
+div.shi:hover>a{display: block;}
+.three-l>ul>li:nth-child(2)>div{width: 95%;height: 140px;}
+/* 第四部分 */
+div.four{overflow: hidden;position: relative;}
+.banner{width: 1400px;height: 550px;margin: 0 auto;overflow: hidden;position: relative;}
+.banner>img{width: 400px;height: 550px;position: absolute;top: 0;bottom: 0;margin: auto;transition: all 0.5s linear;}
+.banner>img:nth-child(1){left: 500px;margin: auto; z-index: 1;}
+.banner>img:nth-child(2){left: 300px;z-index: 0;opacity: 0.7;}
+.banner>img:nth-child(3){left: 700px;z-index: 0;opacity: 0.7;}
+.four>button{position: absolute;width: 100px;height: 200px;border: none;top: 270px;outline: 0;}
+.four>button:nth-of-type(1){left: 300px;}
+.four>button:nth-of-type(2){right: 300px;}
+.footer{width: 100%;height: 210px;background: #8C515D;position: absolute;bottom: 0;}
+.footer>img{margin:20px 40px;}
+.medio{width: 750px;height: 200px;position: absolute;top: 20px;left: 300px;}
+.medio>p{width: 100%;height: 50px;font-size: 30px;text-align: center;}
+.medio>img{margin: 50px 10px;}
+.guang{width: 720px;height: 210px;position: absolute;right: 0;top: 20px;}
+.guang>ul{width: 100%;height: 20px;margin-bottom: 10px;}
+.guang>ul>li{height:20px; float: left;font-size: 10px;color: white;margin-right: 1px;line-height: 20px;}
+.guang>p{font-size: 12px;height: 12px; color: white;margin-bottom: 10px;line-height:12px;}
+.guang>p>img{vertical-align: middle;}
+.guang>ul>li>img{vertical-align: middle;}
+.left-btn{position:fixed;width:15px; height:100px;left:30px;top:500px;z-index:3;}
+.left-btn>ul>li{background:black;cursor:pointer;width:15px;height: 15px;border-radius:15px;margin-bottom: 10px;border:2px solid white;}
+.left-btn>ul>li.active{background:#FFBDC2;border:2px solid white;}
+.erweima{width: 229px;height: 270px;position: fixed;top: 30%;left: 90px;}
+.download{width: 228px;height: 250px;background: salmon;position: fixed;top: 30%;right: 70px;}
+.download>img:nth-child(2){width: 195px;height: 195px;position: absolute;top: 25px;left: 15px;}

@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+body{width: 100%;height: auto;}
+.header{width: 100%;height: 650px;position: relative;background: url(../img/news.jpg) no-repeat center 10px;}
+/* 导航栏 */
+.nav{width: 1056px;height: 86px;margin: 0 auto;}
+.nav>li{width: 102px;height: 36px;float: left;margin: 20px 1px 20px 0;text-align: center;}
+.nav>li>a{display: block;width: 102px;height: 20px;color: #A23E4F;margin:8px 0;border-right: 1px solid #C0C1C2;}
+.nav>li:nth-child(1){width: 221px;height: 72px;margin: 5px 1px;border-right: none;}
+.nav>li:nth-child(1)>a{display: block;width: 221px;height: 72px;border-right: none;}
+.nav>li:nth-child(1)>a>img{width: 100%;height: 100%;}
+.nav>li:nth-child(9)>a{border-right: none;}
+.nav>li>a:hover{color: #FFBDC2;}
+.title{width: 1000px;height: 67px;position: absolute;bottom: 0;left: 0;right: 0;margin: auto;background: url(../img/title.png) no-repeat 0 -67px;}
+.header>p{width: 1000px;height: 18px;position: absolute;left: 0;right: 0;margin: auto;bottom: -35px;font-size: 18px;color: #5F3E4F;letter-spacing: 1px;}
+.header>p>a{color: black;}
+.header>p>span{color: #e47e80;}
+/* 中间部分 */
+.bodyer{width: 1000px;height: 620px;margin: 70px auto;background: url(../img/weihu.jpg) no-repeat 0 0/100%;}
+.newsp{width: 600px;height: 620px;background: rgba(255,255,255,0.5);margin: 0 auto;text-align: center;}
+.newsp>h2{color:#e47e80; margin: 2px;}
+.newsp>hr{width: 90%;margin: 0 auto;background: #c16b6e;border: none;height: 1px;}
+#notice{width: 500px;height: 500px;margin: 16px auto;overflow: hidden;}
+#notice>li{width: 500px;height: 50px;margin: 19px 0;line-height: 50px;text-align: left;overflow: hidden;border-bottom: 1px solid #c16b6e;}
+#notice>li>span:nth-child(1){display: block;width: 60px;height: 40px;background: #e47e80;border-radius: 20px;text-align: center;font-size: 18px;
+line-height: 40px;color: white;margin:5px 2px;float: left;}
+#notice>li>a{color:black;}
+#notice>li>a:hover{color:#e47e80;text-decoration: underline;}
+#notice>li>span:last-child{float: right;}
+#pageBox{width: 300px;height: 50px;margin: 0 auto;}
+#pageBox>span{display: block;width: 100px;height: 50px;line-height: 50px;float: left;color: white;font-size: 16px;font-weight: bold;}
+#prev{background: #e47e80;border-radius: 20px;cursor: pointer;}
+#pageNav{display: block;width: 100px;height: 50px;line-height: 50px;float: left;font-weight: bold;}
+#next{background: #e47e80;border-radius: 20px;cursor: pointer;}
+.footer{width: 100%;height: 100px;background: #B77986;overflow: hidden;}
+.footer>ul{width: 800px;height: 20px;margin: 15px auto;display: flex;flex-flow: row nowrap;justify-content: space-between; }
+.footer>ul>li{color: white;font-size: 12px;float: left;}
+.footer>p{width: 400px;height: 20px;color: white;font-size: 12px;margin:5px auto;text-align: center;line-height: 20px;}

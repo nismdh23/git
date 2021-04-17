@@ -1,0 +1,16 @@
+{
+  "id": "2352780",
+  "name": "1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1546572",
+      "name": "回顶部",
+      "font_class": "huidingbu",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    }
+  ]
+}

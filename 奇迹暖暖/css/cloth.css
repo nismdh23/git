@@ -1,0 +1,12 @@
+#title{background: url(../img/title.png) no-repeat 0 -186px;}
+.mid{width: 1010px;height: auto;margin: 70px auto;}
+ul.day{width: 1010px;height:475px;border-bottom: 1px solid lightgray;}
+ul.day>li{width: 148px;height: 158px;float: left;margin: 0 10px;text-align: center;line-height: 158px;cursor: pointer;}
+ul.day>li>img{width: 124px;height: 132px;vertical-align: middle;}
+ul.day>li.big>img{width: 148px;height: 158px;}
+ul.clothes{width: 1010px;margin: 10px auto;}
+ul.clothes>li{width: 100%;height: auto;display: none;}
+ul.clothes>li:nth-child(1){display: block;}
+ul.clothes>li>div{width: 220px;height: 320px;text-align: center;float: left;margin: 10px 16px;}
+ul.clothes>li>div>img{width: 220px;height: 280px;}
+ul.clothes>li>div>span{font-size: 12px; background: #ffddf5;line-height: 35px;border-radius: 25px;padding: 5px 15px;}
